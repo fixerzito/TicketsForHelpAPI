@@ -1,0 +1,11 @@
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\bin\Debug\net9.0\TicketsForHelp.Domain.deps.json
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\bin\Debug\net9.0\TicketsForHelp.Domain.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\bin\Debug\net9.0\TicketsForHelp.Domain.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\TicketsForHelp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\TicketsForHelp.Domain.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\TicketsForHelp.Domain.AssemblyInfo.cs
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\TicketsForHelp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\TicketsForHelp.Domain.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\refint\TicketsForHelp.Domain.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\TicketsForHelp.Domain.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\ref\TicketsForHelp.Domain.dll

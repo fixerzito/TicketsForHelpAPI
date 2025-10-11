@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsForHelp.Application", "TicketsForHelp.Application\TicketsForHelp.Application.csproj", "{24692FE3-EDCC-458B-97C2-1BB0CA796EF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{E223F2D1-EDA5-47EB-B34E-D39019C37CB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{F8C113C7-49FD-4B9B-B070-DED6D3D7CD3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{A72FB4DE-492E-4685-82CE-D01AD883E4F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{CF19358D-3927-49D8-AEE7-E7567A308C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsForHelp.Service", "TicketsForHelp.Service\TicketsForHelp.Service.csproj", "{6E46BDCE-DF52-4DA8-A8CA-92170E85777C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsForHelp.Domain", "TicketsForHelp.Domain\TicketsForHelp.Domain.csproj", "{177155ED-5664-459C-B348-EE2649F23747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsForHelp.Infra.Data", "TicketsForHelp.Infra.Data\TicketsForHelp.Infra.Data.csproj", "{9E9EE611-B8F0-4E42-851B-C88C33625DAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24692FE3-EDCC-458B-97C2-1BB0CA796EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24692FE3-EDCC-458B-97C2-1BB0CA796EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24692FE3-EDCC-458B-97C2-1BB0CA796EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24692FE3-EDCC-458B-97C2-1BB0CA796EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E46BDCE-DF52-4DA8-A8CA-92170E85777C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E46BDCE-DF52-4DA8-A8CA-92170E85777C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E46BDCE-DF52-4DA8-A8CA-92170E85777C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E46BDCE-DF52-4DA8-A8CA-92170E85777C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177155ED-5664-459C-B348-EE2649F23747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177155ED-5664-459C-B348-EE2649F23747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177155ED-5664-459C-B348-EE2649F23747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177155ED-5664-459C-B348-EE2649F23747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9EE611-B8F0-4E42-851B-C88C33625DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9EE611-B8F0-4E42-851B-C88C33625DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9EE611-B8F0-4E42-851B-C88C33625DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9EE611-B8F0-4E42-851B-C88C33625DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24692FE3-EDCC-458B-97C2-1BB0CA796EF7} = {E223F2D1-EDA5-47EB-B34E-D39019C37CB8}
+		{6E46BDCE-DF52-4DA8-A8CA-92170E85777C} = {A72FB4DE-492E-4685-82CE-D01AD883E4F2}
+		{177155ED-5664-459C-B348-EE2649F23747} = {F8C113C7-49FD-4B9B-B070-DED6D3D7CD3B}
+		{9E9EE611-B8F0-4E42-851B-C88C33625DAF} = {CF19358D-3927-49D8-AEE7-E7567A308C54}
+	EndGlobalSection
+EndGlobal

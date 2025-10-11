@@ -1,0 +1,17 @@
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\bin\Debug\net9.0\TicketsForHelp.Service.deps.json
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\bin\Debug\net9.0\TicketsForHelp.Service.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\bin\Debug\net9.0\TicketsForHelp.Service.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\bin\Debug\net9.0\TicketsForHelp.Domain.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\bin\Debug\net9.0\TicketsForHelp.Infra.Data.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\bin\Debug\net9.0\TicketsForHelp.Domain.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\bin\Debug\net9.0\TicketsForHelp.Infra.Data.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.csproj.AssemblyReference.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.AssemblyInfo.cs
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsF.480D6B5E.Up2Date
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\refint\TicketsForHelp.Service.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\ref\TicketsForHelp.Service.dll

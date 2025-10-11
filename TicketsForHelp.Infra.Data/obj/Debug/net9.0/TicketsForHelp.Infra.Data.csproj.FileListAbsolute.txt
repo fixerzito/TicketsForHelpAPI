@@ -1,0 +1,17 @@
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\bin\Debug\net9.0\TicketsForHelp.Infra.Data.deps.json
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\bin\Debug\net9.0\TicketsForHelp.Infra.Data.runtimeconfig.json
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\bin\Debug\net9.0\TicketsForHelp.Infra.Data.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\bin\Debug\net9.0\TicketsForHelp.Infra.Data.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\bin\Debug\net9.0\TicketsForHelp.Domain.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\bin\Debug\net9.0\TicketsForHelp.Domain.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsForHelp.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsForHelp.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsForHelp.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsForHelp.Infra.Data.AssemblyInfo.cs
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsForHelp.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsF.3F90FF31.Up2Date
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsForHelp.Infra.Data.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\refint\TicketsForHelp.Infra.Data.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsForHelp.Infra.Data.pdb
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\TicketsForHelp.Infra.Data.genruntimeconfig.cache
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Infra.Data\obj\Debug\net9.0\ref\TicketsForHelp.Infra.Data.dll

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TicketsForHelp.Domain\TicketsForHelp.Domain.csproj" />
+        <ProjectReference Include="..\TicketsForHelp.Infra.Data\TicketsForHelp.Infra.Data.csproj" />
+    </ItemGroup>
+
+
+</Project>

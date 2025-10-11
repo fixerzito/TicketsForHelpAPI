@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BVs3iTJIKtsYCMRUpD98V1dzn9+YfvsUQZXn71N21tQ=",
+  "Source": "TicketsForHelp.Application",
+  "BasePath": "_content/TicketsForHelp.Application",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
