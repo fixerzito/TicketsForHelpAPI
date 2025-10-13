@@ -15,3 +15,4 @@ C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\refint\TicketsForHelp.Service.dll
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.pdb
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\ref\TicketsForHelp.Service.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TicketsForHelpAPI\TicketsForHelp.Service\obj\Debug\net9.0\TicketsForHelp.Service.sourcelink.json

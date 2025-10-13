@@ -1,8 +1,6 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using TicketsForHelp.Domain.DTOs.Ticket;
 
-namespace TicketsForHelp.Domain.Interfaces.Ticket;
+namespace TicketsForHelp.Domain.Interfaces.Services.Ticket;
 
 public interface ITicketService
 {

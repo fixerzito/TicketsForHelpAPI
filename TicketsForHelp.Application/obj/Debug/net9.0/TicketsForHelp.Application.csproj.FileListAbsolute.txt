@@ -193,3 +193,4 @@ C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Application\obj\Debug\net9.0\TicketsForHelp.Application.pdb
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Application\obj\Debug\net9.0\TicketsForHelp.Application.genruntimeconfig.cache
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Application\obj\Debug\net9.0\ref\TicketsForHelp.Application.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TicketsForHelpAPI\TicketsForHelp.Application\obj\Debug\net9.0\TicketsForHelp.Application.sourcelink.json

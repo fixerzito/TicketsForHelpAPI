@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using TicketsForHelp.Domain.DTOs.Ticket;
 using TicketsForHelp.Domain.Interfaces.Repositories.Ticket;
-using TicketsForHelp.Domain.Interfaces.Ticket;
+using TicketsForHelp.Domain.Interfaces.Services.Ticket;
 
 namespace TicketsForHelp.Service.Services.Ticket;
 
@@ -87,7 +87,7 @@ public class TicketService : ITicketService
     {
         var ticket = await _repository.GetByIdAsync(id);
         if (ticket is null)
-            throw new Exception("Customer not found");
+            throw new Exception("Ticket not found");
 
         ticket.ActiveRegister = false;
 

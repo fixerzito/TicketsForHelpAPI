@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TicketsForHelp.Domain.DTOs.Customer;
 using TicketsForHelp.Domain.DTOs.Ticket;
-using TicketsForHelp.Domain.Interfaces.Ticket;
+using TicketsForHelp.Domain.Interfaces.Services.Ticket;
 using TicketsForHelp.Domain.ViewModels.Ticket;
 
 namespace TicketsForHelp.Application.Controllers.Ticket;

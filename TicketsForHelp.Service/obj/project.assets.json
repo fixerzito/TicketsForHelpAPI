@@ -3080,11 +3080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Service\\TicketsForHelp.Service.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Service\\TicketsForHelp.Service.csproj",
       "projectName": "TicketsForHelp.Service",
-      "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Service\\TicketsForHelp.Service.csproj",
+      "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Service\\TicketsForHelp.Service.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Service\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3102,11 +3102,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Domain\\TicketsForHelp.Domain.csproj": {
-              "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Domain\\TicketsForHelp.Domain.csproj"
+            "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Domain\\TicketsForHelp.Domain.csproj": {
+              "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Domain\\TicketsForHelp.Domain.csproj"
             },
-            "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Infra.Data\\TicketsForHelp.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Infra.Data\\TicketsForHelp.Infra.Data.csproj"
+            "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Infra.Data\\TicketsForHelp.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Infra.Data\\TicketsForHelp.Infra.Data.csproj"
             }
           }
         }
@@ -3120,7 +3120,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {

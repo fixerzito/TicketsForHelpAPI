@@ -9,3 +9,4 @@ C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\refint\TicketsForHelp.Domain.dll
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\TicketsForHelp.Domain.pdb
 C:\Users\lucas\Desktop\TicketsForHelp\back-end\TIcketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\ref\TicketsForHelp.Domain.dll
+C:\Users\lucas\Desktop\TicketsForHelp\back-end\TicketsForHelpAPI\TicketsForHelp.Domain\obj\Debug\net9.0\TicketsForHelp.Domain.sourcelink.json

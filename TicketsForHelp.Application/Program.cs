@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using TicketsForHelp.Domain.Interfaces.Repositories.Customer;
 using TicketsForHelp.Domain.Interfaces.Repositories.Ticket;
 using TicketsForHelp.Domain.Interfaces.Services.Customer;
-using TicketsForHelp.Domain.Interfaces.Ticket;
+using TicketsForHelp.Domain.Interfaces.Services.Ticket;
 using TicketsForHelp.Infra.Data.Context;
 using TicketsForHelp.Infra.Data.Repositories.Customer;
 using TicketsForHelp.Infra.Data.Repositories.Ticket;

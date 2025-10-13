@@ -52,6 +52,48 @@ namespace TicketsForHelp.Infra.Data.Migrations
                     b.ToTable("customer", (string)null);
                 });
 
+            modelBuilder.Entity("TicketsForHelp.Domain.Entities.Employee.Employee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("ActiveRegister")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active_register");
+
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("varchar(14)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("varchar(200)");
+
+                    b.Property<string>("Login")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("varchar(150)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("varchar(150)");
+
+                    b.Property<string>("Photo")
+                        .HasColumnType("varchar(255)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("employees", (string)null);
+                });
+
             modelBuilder.Entity("TicketsForHelp.Domain.Entities.Ticket.Ticket", b =>
                 {
                     b.Property<int>("Id")
