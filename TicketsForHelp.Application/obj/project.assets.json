@@ -6428,11 +6428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Application\\TicketsForHelp.Application.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Application\\TicketsForHelp.Application.csproj",
       "projectName": "TicketsForHelp.Application",
-      "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Application\\TicketsForHelp.Application.csproj",
+      "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Application\\TicketsForHelp.Application.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Application\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6450,11 +6450,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Infra.Data\\TicketsForHelp.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Infra.Data\\TicketsForHelp.Infra.Data.csproj"
+            "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Infra.Data\\TicketsForHelp.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Infra.Data\\TicketsForHelp.Infra.Data.csproj"
             },
-            "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Service\\TicketsForHelp.Service.csproj": {
-              "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Service\\TicketsForHelp.Service.csproj"
+            "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Service\\TicketsForHelp.Service.csproj": {
+              "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Service\\TicketsForHelp.Service.csproj"
             }
           }
         }
@@ -6468,8 +6468,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net9.0": {
@@ -6536,5 +6535,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

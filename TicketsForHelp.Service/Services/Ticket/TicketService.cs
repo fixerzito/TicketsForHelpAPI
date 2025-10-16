@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using TicketsForHelp.Domain.DTOs.Ticket;
 using TicketsForHelp.Domain.Interfaces.Repositories.Ticket;
 using TicketsForHelp.Domain.Interfaces.Services.Ticket;

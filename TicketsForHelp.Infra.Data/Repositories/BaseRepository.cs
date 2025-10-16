@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using TicketsForHelp.Domain.Entities;
 using TicketsForHelp.Domain.Interfaces.Repositories;
 using TicketsForHelp.Infra.Data.Context;

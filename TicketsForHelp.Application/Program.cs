@@ -1,12 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using TicketsForHelp.Domain.Interfaces.Repositories.Customer;
+using TicketsForHelp.Domain.Interfaces.Repositories.Employee;
 using TicketsForHelp.Domain.Interfaces.Repositories.Ticket;
 using TicketsForHelp.Domain.Interfaces.Services.Customer;
+using TicketsForHelp.Domain.Interfaces.Services.Employee;
 using TicketsForHelp.Domain.Interfaces.Services.Ticket;
 using TicketsForHelp.Infra.Data.Context;
 using TicketsForHelp.Infra.Data.Repositories.Customer;
+using TicketsForHelp.Infra.Data.Repositories.Employee;
 using TicketsForHelp.Infra.Data.Repositories.Ticket;
 using TicketsForHelp.Service.Services.Customer;
+using TicketsForHelp.Service.Services.Employee;
 using TicketsForHelp.Service.Services.Ticket;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,8 +34,12 @@ builder.Services.AddDbContext<TicketsForHelpContext>(options =>
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
+
 builder.Services.AddScoped<ITicketService, TicketService>();
 builder.Services.AddScoped<ITicketRepository, TicketRepository>();
+
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
 var app = builder.Build();
 

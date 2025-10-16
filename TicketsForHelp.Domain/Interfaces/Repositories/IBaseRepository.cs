@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-
-namespace TicketsForHelp.Domain.Interfaces.Repositories;
+﻿namespace TicketsForHelp.Domain.Interfaces.Repositories;
 
 public interface IBaseRepository<T>
 {

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Domain\\TicketsForHelp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Domain\\TicketsForHelp.Domain.csproj",
       "projectName": "TicketsForHelp.Domain",
-      "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Domain\\TicketsForHelp.Domain.csproj",
+      "projectPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Domain\\TicketsForHelp.Domain.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,8 +46,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net9.0": {

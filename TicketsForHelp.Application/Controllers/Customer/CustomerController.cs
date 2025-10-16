@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TicketsForHelp.Domain.DTOs.Customer;
 using TicketsForHelp.Domain.Interfaces.Services.Customer;
