@@ -14,4 +14,21 @@ public class TicketRepository : BaseRepository<Domain.Entities.Ticket.Ticket>, I
         _context = contexto;
         _dbSet = _context.Set<Domain.Entities.Ticket.Ticket>();
     }
+
+    public async Task<IList<Domain.Entities.Ticket.Ticket>> GetAllAsync()
+    {
+        return await _dbSet
+            .Include(x => x.Employee)
+            .Include(x => x.Customer)
+            .ToListAsync();
+    }
+    
+    public async Task<Domain.Entities.Ticket.Ticket?> GetByIdAsync(int id)
+    {
+        return (await _dbSet
+            .Include(x => x.Employee)
+            .Include(x => x.Customer)
+            .FirstOrDefaultAsync(x => x.Id == id))!;
+    }
+    
 }

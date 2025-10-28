@@ -25,7 +25,8 @@ public class TicketService : ITicketService
             {
                 Id = ticket.Id,
                 Name = ticket.Name,
-                IdCustomer = ticket.IdCustomer,
+                Customer = ticket.Customer.Name,
+                Employee = ticket.Employee?.Name,
                 Status = ticket.Status
             };
 
@@ -48,7 +49,10 @@ public class TicketService : ITicketService
             Name = ticket.Name,
             Issue = ticket.Issue,
             Status = ticket.Status,
-            IdCustomer = ticket.IdCustomer
+            IdEmployee = ticket.Employee?.Id,
+            Employee = ticket.Employee?.Name,
+            IdCustomer = ticket.Customer.Id,
+            Customer = ticket.Customer.Name,
         };
     }
 
@@ -59,7 +63,8 @@ public class TicketService : ITicketService
             Name = dto.Name,
             Issue = dto.Issue,
             Status = dto.Status,
-            IdCustomer = dto.IdCustomer
+            IdCustomer = dto.IdCustomer,
+            IdEmployee = dto.IdEmployee
         };
 
         await _repository.AddAsync(ticket);
@@ -76,6 +81,7 @@ public class TicketService : ITicketService
         customer.Issue = dto.Issue!;
         customer.Status = dto.Status!;
         customer.IdCustomer = dto.IdCustomer!;
+        customer.IdEmployee = dto.IdEmployee;
 
         await _repository.UpdateAsync(customer);
     }
@@ -88,6 +94,6 @@ public class TicketService : ITicketService
 
         ticket.ActiveRegister = false;
 
-        await _repository.UpdateAsync(ticket);
+        await _repository.DeleteAsync(ticket);
     }
 }

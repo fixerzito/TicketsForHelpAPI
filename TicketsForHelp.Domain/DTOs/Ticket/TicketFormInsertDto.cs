@@ -6,4 +6,5 @@ public class TicketFormInsertDto
     public string Issue { get; set; }
     public bool Status { get; set; }
     public int IdCustomer { get; set; }
+    public int IdEmployee { get; set; }
 }

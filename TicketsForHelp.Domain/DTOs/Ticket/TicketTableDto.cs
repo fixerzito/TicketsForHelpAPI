@@ -4,6 +4,7 @@ public class TicketTableDto
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    public int IdCustomer { get; set; }
+    public string Customer { get; set; }
+    public string? Employee { get; set; }
     public bool Status { get; set; }
 }

@@ -26,6 +26,12 @@ public class TicketMapping : IEntityTypeConfiguration<Domain.Entities.Ticket.Tic
             .WithMany()
             .HasForeignKey(x => x.IdCustomer)
             .OnDelete(DeleteBehavior.Restrict);
+        
+        builder.HasOne(x => x.Employee)
+            .WithMany(x => x.Tickets)
+            .HasForeignKey(x => x.IdEmployee)
+            .OnDelete(DeleteBehavior.Restrict)
+            .IsRequired(false);
 
         builder.Property(x => x.ActiveRegister)
             .HasColumnName("active_register")

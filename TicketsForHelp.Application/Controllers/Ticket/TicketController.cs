@@ -29,7 +29,8 @@ public class TicketController : Controller
                 Id = dto.Id,
                 Name = dto.Name,
                 Status = dto.Status,
-                IdCustomer = dto.IdCustomer
+                Employee = dto.Employee,
+                Customer = dto.Customer
             };
 
             customers.Add(customer);
@@ -55,6 +56,9 @@ public class TicketController : Controller
             Status = dto.Status,
             Issue = dto.Issue,
             IdCustomer = dto.IdCustomer,
+            Customer = dto.Customer,
+            IdEmployee = dto.IdEmployee,
+            Employee = dto.Employee,
         };
 
         return Ok(ticket);
@@ -64,14 +68,13 @@ public class TicketController : Controller
     public async Task<IActionResult> Add(TicketFormInsertDto dto)
     {
         var id = await _service.AddAsync(dto);
-
+        
         var response = new TicketResponseViewModel
         {
-            Id = id,
             Name = dto.Name,
             Status = dto.Status,
             Issue = dto.Issue,
-            IdCustomer = dto.IdCustomer,
+            IdCustomer = dto.IdCustomer
         };
 
         return CreatedAtAction(nameof(GetById), new { id = id }, response);
