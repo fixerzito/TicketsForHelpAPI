@@ -22,6 +22,11 @@ public class TicketMapping : IEntityTypeConfiguration<Domain.Entities.Ticket.Tic
             .IsRequired()
             .HasColumnType("BIT");
 
+        builder.Property(x => x.Criticity)
+            .HasConversion<string>()
+            .HasMaxLength(10)
+            .IsRequired();
+
         builder.HasOne(x => x.Customer)
             .WithMany()
             .HasForeignKey(x => x.IdCustomer)

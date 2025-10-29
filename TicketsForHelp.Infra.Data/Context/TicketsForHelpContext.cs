@@ -21,8 +21,12 @@ public class TicketsForHelpContext : DbContext
 
         modelBuilder.Entity<Customer>()
             .HasQueryFilter(e => e.ActiveRegister);
+        
         modelBuilder.Entity<Ticket>()
-            .HasQueryFilter(e => e.ActiveRegister);
+            .HasQueryFilter(e => e.ActiveRegister)
+            .Property(t => t.Criticity)
+            .HasConversion<string>();
+        
         modelBuilder.Entity<Employee>()
             .HasQueryFilter(e => e.ActiveRegister);
     }

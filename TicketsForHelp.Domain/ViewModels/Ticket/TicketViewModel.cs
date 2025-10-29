@@ -5,6 +5,7 @@ public class TicketViewModel
     public int Id { get; set; }
     public string Name { get; set; }
     public string Issue { get; set; }
+    public string Criticity { get; set; }
     public bool Status { get; set; }
     
     public int IdCustomer { get; set; }

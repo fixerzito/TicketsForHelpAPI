@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using TicketsForHelp.Domain.DTOs.Ticket;
+using TicketsForHelp.Domain.Enums.Ticket;
 using TicketsForHelp.Domain.Interfaces.Services.Ticket;
 using TicketsForHelp.Domain.ViewModels.Ticket;
 
@@ -29,6 +30,7 @@ public class TicketController : Controller
                 Id = dto.Id,
                 Name = dto.Name,
                 Status = dto.Status,
+                Criticity = dto.Criticity,
                 Employee = dto.Employee,
                 Customer = dto.Customer
             };
@@ -55,6 +57,7 @@ public class TicketController : Controller
             Name = dto.Name,
             Status = dto.Status,
             Issue = dto.Issue,
+            Criticity = dto.Criticity,
             IdCustomer = dto.IdCustomer,
             Customer = dto.Customer,
             IdEmployee = dto.IdEmployee,
@@ -62,6 +65,15 @@ public class TicketController : Controller
         };
 
         return Ok(ticket);
+    }
+    
+    [HttpGet("criticity")]
+    public Task<IActionResult> GetCriticity()
+    {
+        var criticity = Enum.GetNames(typeof(TicketCriticity)).ToList();
+
+        
+        return Task.FromResult<IActionResult>(Ok(criticity));
     }
 
     [HttpPost]
@@ -74,6 +86,7 @@ public class TicketController : Controller
             Name = dto.Name,
             Status = dto.Status,
             Issue = dto.Issue,
+            Criticity = dto.Criticity,
             IdCustomer = dto.IdCustomer
         };
 

@@ -1,4 +1,5 @@
 using TicketsForHelp.Domain.DTOs.Ticket;
+using TicketsForHelp.Domain.Enums.Ticket;
 using TicketsForHelp.Domain.Interfaces.Repositories.Ticket;
 using TicketsForHelp.Domain.Interfaces.Services.Ticket;
 
@@ -26,6 +27,7 @@ public class TicketService : ITicketService
                 Id = ticket.Id,
                 Name = ticket.Name,
                 Customer = ticket.Customer.Name,
+                Criticity = ticket.Criticity.ToString(),
                 Employee = ticket.Employee?.Name,
                 Status = ticket.Status
             };
@@ -49,6 +51,7 @@ public class TicketService : ITicketService
             Name = ticket.Name,
             Issue = ticket.Issue,
             Status = ticket.Status,
+            Criticity = ticket.Criticity.ToString(),
             IdEmployee = ticket.Employee?.Id,
             Employee = ticket.Employee?.Name,
             IdCustomer = ticket.Customer.Id,
@@ -63,6 +66,7 @@ public class TicketService : ITicketService
             Name = dto.Name,
             Issue = dto.Issue,
             Status = dto.Status,
+            Criticity = Enum.Parse<TicketCriticity>(dto.Criticity, true),
             IdCustomer = dto.IdCustomer,
             IdEmployee = dto.IdEmployee
         };
@@ -80,6 +84,7 @@ public class TicketService : ITicketService
         customer.Name = dto.Name!;
         customer.Issue = dto.Issue!;
         customer.Status = dto.Status!;
+        customer.Criticity = Enum.Parse<TicketCriticity>(dto.Criticity, true);
         customer.IdCustomer = dto.IdCustomer!;
         customer.IdEmployee = dto.IdEmployee;
 
