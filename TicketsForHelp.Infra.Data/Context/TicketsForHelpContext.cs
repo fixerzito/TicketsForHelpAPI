@@ -18,6 +18,7 @@ public class TicketsForHelpContext : DbContext
         modelBuilder.ApplyConfiguration(new CustomerMapping());
         modelBuilder.ApplyConfiguration(new TicketMapping());
         modelBuilder.ApplyConfiguration(new EmployeeMapping());
+        modelBuilder.ApplyConfiguration(new TicketCategoryMapping());
 
         modelBuilder.Entity<Customer>()
             .HasQueryFilter(e => e.ActiveRegister);
@@ -28,6 +29,9 @@ public class TicketsForHelpContext : DbContext
             .HasConversion<string>();
         
         modelBuilder.Entity<Employee>()
+            .HasQueryFilter(e => e.ActiveRegister);
+        
+        modelBuilder.Entity<TicketCategory>()
             .HasQueryFilter(e => e.ActiveRegister);
     }
 }

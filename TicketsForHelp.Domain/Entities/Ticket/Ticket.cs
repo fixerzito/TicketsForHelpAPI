@@ -12,4 +12,5 @@ public class Ticket : EntityBase
     public int? IdEmployee { get; set; }
     public virtual Customer Customer { get; set; }
     public virtual Employee.Employee Employee { get; set; }
+    public ICollection<TicketCategory> TicketCategories { get; set; } = new List<TicketCategory>();
 }

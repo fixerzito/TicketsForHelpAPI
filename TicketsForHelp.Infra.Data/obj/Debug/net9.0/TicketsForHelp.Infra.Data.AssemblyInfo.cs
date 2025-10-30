@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketsForHelp.Infra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f19c22c19438795e0a2844b2c8c04a6d3262fcdd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+420fe17c9a409d22727fe2b014a7da426fc8a686")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicketsForHelp.Infra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicketsForHelp.Infra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

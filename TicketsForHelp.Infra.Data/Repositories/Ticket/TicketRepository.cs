@@ -9,9 +9,9 @@ public class TicketRepository : BaseRepository<Domain.Entities.Ticket.Ticket>, I
     private readonly TicketsForHelpContext _context;
     private readonly DbSet<Domain.Entities.Ticket.Ticket> _dbSet;
     
-    public TicketRepository(TicketsForHelpContext contexto) : base(contexto)
+    public TicketRepository(TicketsForHelpContext context) : base(context)
     {
-        _context = contexto;
+        _context = context;
         _dbSet = _context.Set<Domain.Entities.Ticket.Ticket>();
     }
 
