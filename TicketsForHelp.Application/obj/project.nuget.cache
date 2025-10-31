@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AA3S259VZ5E=",
+  "dgSpecHash": "grqzicYmyfU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TicketsForHelpAPI\\TicketsForHelp.Application\\TicketsForHelp.Application.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Desktop\\TicketsForHelp\\back-end\\TIcketsForHelpAPI\\TicketsForHelp.Application\\TicketsForHelp.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
